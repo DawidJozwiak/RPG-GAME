@@ -1,0 +1,22 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>Bez nazwy-2.png</file>
+        <file>../Downloads/Bez nazwy-4.png</file>
+        <file>Bez nazwy-3.png</file>
+        <file>City.png</file>
+        <file>CharacterCreation.png</file>
+        <file>3SnbK1.png</file>
+        <file>Forest-2.png</file>
+        <file>Merchant.jpg</file>
+        <file>Hell.png</file>
+        <file>Ruins.png</file>
+        <file>Tavern.png</file>
+        <file>31357315-medieval-wooden-background-2.jpg</file>
+        <file>../Downloads/zgFuQw.jpg</file>
+    </qresource>
+    <qresource prefix="/">
+        <file>City.png</file>
+        <file>3SnbK1.png</file>
+        <file>../Downloads/maxresdefault.jpg</file>
+    </qresource>
+</RCC>

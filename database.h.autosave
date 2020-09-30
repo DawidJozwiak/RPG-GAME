@@ -1,0 +1,39 @@
+#ifndef DATABASE_H
+#define DATABASE_H
+
+#include <QList>
+#include <QString>
+
+#include "question.h"
+
+class Database {
+    protected:
+
+        QList<Question> data;
+
+        QList<int> entriesUsed;
+
+        virtual void read() = 0;
+
+    public:
+
+        Database();
+
+        virtual ~Database();
+
+        void write(const QString& output);
+
+        Question getQuestion(int questionId) const;     
+
+        int addQuestion(const Question& question);
+
+        void markQuestionUsed(int questionId);
+
+        bool isQuestionUsed(int questionId) const;
+
+        void resetUsageTracker();
+
+        int size() const;
+};
+
+#endif
